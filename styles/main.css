@@ -91,4 +91,8 @@
   .header-menu li {
     padding: 20px;
   }
+
+  .main-title span {
+    font-size: 40px;
+  }
 }
