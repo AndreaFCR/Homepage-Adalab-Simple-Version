@@ -2,3 +2,70 @@
 .header {
   border: 1px solid red;
 }
+
+:root {
+  /* COLORS */
+  --primary-color: #3cdbc0;
+  --secondary-color: #4a4a4a;
+  --tertiary-color: #ffffff;
+
+  /* FONTS */
+  --primary-font: "Rubik", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  color: inherit;
+  font-family: var(--primary-font);
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+}
+
+.header {
+  background-color: var(--tertiary-color);
+  position: fixed;
+  width: 100%;
+  text-align: center;
+}
+
+.header .wrapper {
+  display: inline-block;
+  width: 100%;
+}
+
+.header-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-menu li {
+  width: 100%;
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary-color);
+  color: var(--tertiary-color);
+}
+
+.main-title span {
+  display: block;
+  text-transform: capitalize;
+  font-size: 30px;
+  font-weight: 700;
+}
