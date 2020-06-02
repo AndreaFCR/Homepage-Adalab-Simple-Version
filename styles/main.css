@@ -85,13 +85,10 @@
   }
 
   .header-logo {
-    padding: 10px;
+    margin-left: 20px;
   }
 
   .header-menu li {
     padding: 20px;
   }
-}
-
-@media all and (min-width: 1200px) {
 }
