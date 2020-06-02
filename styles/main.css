@@ -75,7 +75,21 @@
 
 @media all and (min-width: 768px) {
   .wrapper {
-    padding: 30px;
+    padding: 10px;
+  }
+
+  .header .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header-logo {
+    padding: 10px;
+  }
+
+  .header-menu li {
+    padding: 20px;
   }
 }
 
