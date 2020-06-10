@@ -1,8 +1,3 @@
-.main,
-.header {
-  border: 1px solid red;
-}
-
 :root {
   /* COLORS */
   --primary-color: #3cdbc0;
@@ -51,6 +46,12 @@
 
 .header-menu li {
   width: 100%;
+  text-transform: uppercase;
+  color: var(--secondary-color);
+}
+
+.header-menu li a {
+  padding: 5px;
 }
 
 .main {
@@ -74,10 +75,6 @@
 }
 
 @media all and (min-width: 768px) {
-  .wrapper {
-    padding: 10px;
-  }
-
   .header .wrapper {
     display: flex;
     justify-content: space-between;
