@@ -19,35 +19,25 @@
   text-decoration: none;
 }
 
-.wrapper {
-  max-width: 1200px;
-  margin: auto;
-  width: 100%;
-  padding: 10px;
-}
-
 .header {
   background-color: var(--tertiary-color);
   position: fixed;
   width: 100%;
   text-align: center;
-}
-
-.header .wrapper {
-  display: block;
-  width: 100%;
+  padding-top: 10px;
 }
 
 .header-menu {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
 .header-menu li {
-  width: 100%;
+  width: fit fit-content;
   text-transform: uppercase;
   color: var(--secondary-color);
+  padding: 10px 20px 13px;
 }
 
 .header-menu li a {
@@ -75,18 +65,15 @@
 }
 
 @media all and (min-width: 768px) {
-  .header .wrapper {
+  .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-
-  .header-logo {
-    margin-left: 20px;
+    padding: 20px 30px;
   }
 
   .header-menu li {
-    padding: 20px;
+    padding: 0 10px;
   }
 
   .main-title span {
