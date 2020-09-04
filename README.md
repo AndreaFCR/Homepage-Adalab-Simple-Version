@@ -2,7 +2,7 @@
 
 # Mid-term evaluation of module 1 - Promo Jemison - Adalab
 
-Task for mid-term evaluation of module 1.  Task's aim is to develop a minimalist version of Adalab landing page using css (scss) and html, both learned during this part of the course. 
+Task for mid-term evaluation of module 1.  Task's aim is to develop a minimalist version of Adalab's landing page using css (scss) and html, both learned during this part of the course. 
 
 ## Built with 🛠️
 
